@@ -1,0 +1,25 @@
+body {
+	background-color: lightblue;
+}
+
+h2 {
+	color:darkblue;
+}
+
+img {
+	display: block;
+	width: 600px;
+	height: 300px;
+}
+
+.container {
+	width: 600px;
+	height: 300px;
+	border-style: dashed;
+	border-width: 2px;
+	color: red
+}
+
+h3 {
+	text-align: center;
+}
