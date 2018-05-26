@@ -3,10 +3,7 @@
 	<head>
 		<title>PIZZA!!!</title>
 		<link rel="stylesheet" href="./pizza.css">
-		<!--<style>
-		#menuboxes{width:100px;height:470px;margin:10px auto;}
-		#menu{width:400px;height:200px;}
-		</style>-->
+		<!-- <script type="javascript" src="./pizza.js"></script> -->
 	</head>
 	<body>
 		<div class="pizzababes">
@@ -14,92 +11,98 @@
 		</div>
 		<div><center>
 			<h1>DRESS ME PIZZA</h1>
-		<div class="menuasawhole">
-			<form id="menuboxes"> <!--/proporties of each box, in a whole-->
-				<div class="menu">
-					<h1>size&nbsp;me</h1>
-					<input class="size" type="radio" name="size" value="personal"> PERSONAL<br>
-					<input class="size" type="radio" name="size" value="medium" checked> MEDIUM<br>
-					<input class="size" type="radio" name="size" value="large"> LARGE<br>
-					<input class="size" type="radio" name="size" value="extra large"> EXTRA LARGE<br>
-				</div>
-				<div class="menu">
-					<h1>meat&nbsp;me</h1>
-					<br>
-					<input class="meat" type="checkbox" name="meat" value="pepperoni"> PEPPERONI<br>
-					<input class="meat" type="checkbox" name="meat" value="sausage"> SAUSAGE<br>
-					<input class="meat" type="checkbox" name="meat" value="canadian bacon"> CANADIAN BACON<br>
-					<input class="meat" type="checkbox" name="meat" value="ground beef"> GROUND BEEF<br>
-					<input class="meat" type="checkbox" name="meat" value="anchovy"> ANCHOVY<br>
-					<input class="meat" type="checkbox" name="meat" value="chicken"checked> CHICKEN<br>
-				</div>
-				<div class="menu">
-					<h1>cheese&nbsp;me</h1>
-					<br>
-					<input class="cheese" type="radio" name="cheese" value="no cheese"> NO CHEESE<br>
-					<input class="cheese" type="radio" name="cheese" value="regular"checked> REGULAR<br>
-					<input class="cheese" type="radio" name="cheese" value="extra cheese"> EXTRA CHEESE<br>
-				</div>
-				<div class="menu">
-					<h1>flavour&nbsp;my&nbsp;crust</h1>
-					<br>
-					<input class="crust" type="radio" name="crust" value="plain"> PLAIN<br>
-					<input class="crust" type="radio" name="crust" value="garlic butter"checked> GARLIC BUTTER<br>
-					<input class="crust" type="radio" name="crust" value="cheese stuffed"> CHEESE STUFFED<br>
-					<input class="crust" type="radio" name="crust" value="spicy"> SPICEY<br>
-					<input class="crust" type="radio" name="crust" value="house special"> HOUSE SPECIAL<br>
-				</div>
-				<div class="menu">
-					<h1>sauce&nbsp;me</h1>
-					<br>
-					<input class="sauce" type="radio" name="sauce" value="no sauce"> NO SAUCE<br>
-					<input class="sauce" type="radio" name="sauce" value="marinara"> MARINARA<br>
-					<input class="sauce" type="radio" name="sauce" value="white"checked> WHITE<br>
-					<input class="sauce" type="radio" name="sauce" value="barbeque"> BARBEQUE<br>
-				</div>
-				<div class="menu">
-					<h1>pick&nbsp;my&nbsp;veggies</h1>
-					<br>
-					<input class="veggies" type="checkbox" name="veggies" value="tomatoes"> TOMATOES<br>
-					<input class="veggies" type="checkbox" name="veggies" value="onions"> ONIONS<br>
-					<input class="veggies" type="checkbox" name="veggies" value="olives"> OLIVES<br>
-					<input class="veggies" type="checkbox" name="veggies" value="green peppers"> GREEN PEPPERS<br>
-					<input class="veggies" type="checkbox" name="veggies" value="mushrooms"checked> MUSHROOMS<br>
-					<input class="veggies" type="checkbox" name="veggies" value="pineapple"> PINEAPPLE<br>
-					<input class="veggies" type="checkbox" name="veggies" value="spinach"> SPINACH<br>
-					<input class="veggies" type="checkbox" name="veggies" value="jalapeno"> JALAPENO<br>
-				</div>
-			</form>
-			<form id="addons">
-				<div class="pricesize">
-					<p>
-					<i>"the base pizza price before modification."</i><br>
-					<br>
-					personal pizza: $6.00<br>
-					medium pizza: $10.00<br>
-					large pizza: $14.00<br>
-					extra large pizza: $16.00<br>
-					<br>
-					INGREDIENT MODIFIER<br>
-					<br>
-					<i>"the following igredients, if selected, will be added to the base pizza price:"</i><br>
-					<br>
-					$1 for each additional meat item <i><br>
-					"the first one is on us!"</i><br>
-					<br>
-					$1 for each additional veggie item <i><br>
-					"the first one is also on us!"</i><br>
-					<br>
-					for those extra cheese lovers, it's $3 <i><br>
-					"you wont regret it!"</i><br>
-					<br>
-					to stuff your crust, that'll be $3 <i><br>
-					"we love cheese!"</i><br>
-					<br>
-					</p>
-				</div>
-			</form> 
-		</center></div>
+			<div class="menuasawhole">
+				<form id="menuboxes"> <!--/proporties of each box, in a whole-->
+					<div class="row">
+						<div class="menu">
+							<h1>size&nbsp;me</h1>
+							<input class="size" type="radio" name="pizzaSize" id="personal" value="6.00"> PERSONAL<br>
+							<input class="size" type="radio" name="pizzaSize" id="medium" value="10.00" checked> MEDIUM<br>
+							<input class="size" type="radio" name="pizzaSize" id="large" value="14.00"> LARGE<br>
+							<input class="size" type="radio" name="pizzaSize" id="xlarge" value="16.00"> EXTRA LARGE<br>
+						</div>
+						<div class="menu">
+							<h1>meat&nbsp;me</h1>
+							<input class="meat" type="checkbox" name="meat" value="1.00"> PEPPERONI<br>
+							<input class="meat" type="checkbox" name="meat" value="1.00"> SAUSAGE<br>
+							<input class="meat" type="checkbox" name="meat" value="1.00"> CANADIAN BACON<br>
+							<input class="meat" type="checkbox" name="meat" value="1.00"> GROUND BEEF<br>
+							<input class="meat" type="checkbox" name="meat" value="1.00"> ANCHOVY<br>
+							<input class="meat" type="checkbox" name="meat" value="1.00"checked> CHICKEN<br>
+						</div>
+						<div class="menu">
+							<h1>cheese&nbsp;me</h1>
+							<input class="cheese" type="radio" name="cheese" value="0.00"> NO CHEESE<br>
+							<input class="cheese" type="radio" name="cheese" value="0.00"checked> REGULAR<br>
+							<input class="cheese" type="radio" name="cheese" id="xcheese" value="3.00"> EXTRA CHEESE<br>
+						</div>
+					</div>
+					<div class="menu">
+						<h1>flavour&nbsp;my&nbsp;crust</h1>
+						<input class="crust" type="radio" name="crust" value="0.00"> PLAIN<br>
+						<input class="crust" type="radio" name="crust" value="0.00"checked> GARLIC BUTTER<br>
+						<input class="crust" type="radio" name="crust" id="cheesestuffed" value="3.00"> CHEESE STUFFED<br>
+						<input class="crust" type="radio" name="crust" value="0.00"> SPICEY<br>
+						<input class="crust" type="radio" name="crust" value="0.00"> HOUSE SPECIAL<br>
+					</div>
+					<div class="menu">
+						<h1>sauce&nbsp;me</h1>
+						<input class="sauce" type="radio" name="sauce" value="0.00"> NO SAUCE<br>
+						<input class="sauce" type="radio" name="sauce" value="0.00"> MARINARA<br>
+						<input class="sauce" type="radio" name="sauce" value="0.00"checked> WHITE<br>
+						<input class="sauce" type="radio" name="sauce" value="0.00"> BARBEQUE<br>
+					</div>
+					<div class="menu">
+						<h1>pick&nbsp;my&nbsp;veggies</h1>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"> TOMATOES<br>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"> ONIONS<br>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"> OLIVES<br>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"> GREEN PEPPERS<br>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"checked> MUSHROOMS<br>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"> PINEAPPLE<br>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"> SPINACH<br>
+						<input class="veggies" type="checkbox" name="veggies" value="1.00"> JALAPENO<br>
+					</div>
+				</form>
+				<form id="addons">
+					<div class="pricesize">
+						<p>
+						<br>
+						<i>"the base pizza price before modification."</i><br>
+						<br>
+						personal pizza: $6.00<br>
+						medium pizza: $10.00<br>
+						large pizza: $14.00<br>
+						extra large pizza: $16.00<br>
+						<br>
+						INGREDIENT MODIFIER<br>
+						<br>
+						<i>"the following igredients, if selected, will be added to the base pizza price:"</i><br>
+						<br>
+						$1 for each additional meat item <i><br>
+						"the first one is on us!"</i><br>
+						<br>
+						$1 for each additional veggie item <i><br>
+						"the first one is also on us!"</i><br>
+						<br>
+						for those extra cheese lovers, it's $3 <i><br>
+						"you wont regret it!"</i><br>
+						<br>
+						to stuff your crust, that'll be $3 <i><br>
+						"we love cheese!"</i><br>
+						<br>
+						</p>
+					</div>
+				</form> 
+			</center></div>
 		</div>
+		<div class="orderbutton">
+			<button onclick="calcPrice()">Check me Out</button>
+		</div>
+		<div id="total" style='background-color:white;'>
+			
+		</div>
+		<script src="pizza.js"></script>
 	</body>
 </html>
+
