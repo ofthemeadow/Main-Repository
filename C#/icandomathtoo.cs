@@ -32,7 +32,7 @@ namespace MathAndComparisonOperators
             Console.ReadLine();
 
             Console.WriteLine("Give me a number and I'll tell you 'true' if it's greater than the one I'm thinking of.");
-            bool number4 = 50;
+            bool number4 = System.Convert.ToBoolean(dNumber);
             bool trueOrFalseUser = Console.ReadLine();
             bool trueOrFalse = trueOrFalseUser >= 50;
             Console.WriteLine();
