@@ -27,12 +27,12 @@ namespace MathAndComparisonOperators
             Console.WriteLine(quotient + " is the answer I'll give you.");
             Console.ReadLine();
 
-            //Console.WriteLine("Give me a number and I'll tell you 'true' if it's greater than the one I'm thinking of.");
-            //bool number4 = System.Convert.ToBoolean(dNumber);
-            //bool trueOrFalseUser = Console.ReadLine();
-            //bool trueOrFalse = trueOrFalseUser >= 50;
-            //Console.WriteLine();
-            //Console.ReadLine();
+
+            Console.WriteLine("Give me a number and I'll tell you 'true' if it's greater than the one I'm thinking of.");
+            int number4 = Convert.ToInt32(Console.ReadLine());
+            bool trueOrFalse = number4 >= 50;
+            Console.WriteLine(trueOrFalse);
+            Console.ReadLine();
 
             //bool trueOrFalse = 50 < Console.ReadLine().ToString;
             //Console.WriteLine();
