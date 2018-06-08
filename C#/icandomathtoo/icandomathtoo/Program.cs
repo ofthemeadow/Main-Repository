@@ -34,11 +34,12 @@ namespace MathAndComparisonOperators
             Console.WriteLine(trueOrFalse);
             Console.ReadLine();
 
-            //bool trueOrFalse = 50 < Console.ReadLine().ToString;
-            //Console.WriteLine();
-            //Console.ReadLine();
-
-
+            Console.WriteLine("One more time, give me another number. I'll divide it by 7.");
+            int number5 = 7;
+            int divideUser2 = Convert.ToInt32(Console.ReadLine());
+            int quotient2 = divideUser2 % number5;
+            Console.WriteLine("Your some number with a REMAINDER of " + quotient2);
+            Console.ReadLine();
         }
     }
 }
