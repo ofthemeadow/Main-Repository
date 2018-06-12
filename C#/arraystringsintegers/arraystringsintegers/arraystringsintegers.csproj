@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8AA8A73A-BA78-4931-9832-381A8A1F7AFA}</ProjectGuid>
+    <ProjectGuid>{A6DD2684-4571-4C1C-88BD-BF8D97B78B19}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>building_exercise</RootNamespace>
-    <AssemblyName>building exercise</AssemblyName>
+    <RootNamespace>arraystringsintegers</RootNamespace>
+    <AssemblyName>arraystringsintegers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
