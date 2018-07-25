@@ -24,7 +24,7 @@ namespace newClasses
             }
             catch (FormatException ex)
             {
-                Console.WriteLine("That decimal is not going to work.");
+                Console.WriteLine("That decimal/character is not going to work.");
                 Console.ReadLine();
             }
         }
