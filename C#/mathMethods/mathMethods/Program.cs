@@ -17,7 +17,8 @@ namespace mathMethods
             newIntegerMethods.Mult(Convert.ToDouble(Console.ReadLine()), 2.54);
 
             Console.WriteLine("Give me one more number and I'll add it to 13.");
-            newIntegerMethods.Add(Convert.ToString(Console.ReadLine()), 13);
+            newIntegerMethods.Add(Convert.ToInt32(Console.ReadLine()), 13);
+            Console.Read();
         }
     }
 }
