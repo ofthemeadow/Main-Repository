@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CsharpEx69
+namespace SayNameEx119
 {
-    class Program
+    class Employee
     {
-        static void Main(string[] args)
-
-        {
-
-        }
     }
 }

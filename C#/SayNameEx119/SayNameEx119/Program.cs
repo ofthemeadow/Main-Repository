@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CsharpEx69
+namespace SayNameEx119
 {
-    public class Employee
+    class Program
     {
-        public static void IdNumber(int num1)
+        static void Main(string[] args)
         {
-
         }
     }
 }

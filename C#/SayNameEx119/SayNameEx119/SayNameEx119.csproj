@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9ECF23D0-B459-4929-9444-7B06DADCF8A5}</ProjectGuid>
+    <ProjectGuid>{C72D4C27-CA1F-47F5-ABCE-83B5F78C2D5E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CsharpEx69</RootNamespace>
-    <AssemblyName>CsharpEx69</AssemblyName>
+    <RootNamespace>SayNameEx119</RootNamespace>
+    <AssemblyName>SayNameEx119</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

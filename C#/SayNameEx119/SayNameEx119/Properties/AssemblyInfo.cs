@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CsharpEx69")]
+[assembly: AssemblyTitle("SayNameEx119")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CsharpEx69")]
+[assembly: AssemblyProduct("SayNameEx119")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9ecf23d0-b459-4929-9444-7b06dadcf8a5")]
+[assembly: Guid("c72d4c27-ca1f-47f5-abce-83b5f78c2d5e")]
 
 // Version information for an assembly consists of the following four values:
 //
