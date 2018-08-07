@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace SayNameEx119
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

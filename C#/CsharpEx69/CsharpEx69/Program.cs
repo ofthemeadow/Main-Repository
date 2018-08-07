@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CsharpEx63
+namespace CsharpEx69
 {
-    class ClassMath
+    class Program
     {
-        public static void Mult(int num1, int num2, out int Product)
+        static void Main(string[] args)
+
         {
-            Product = num1 * num2;
+
         }
     }
 }

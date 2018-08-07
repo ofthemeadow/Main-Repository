@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SayNameEx119
 {
-    class Employee
+    public class Employee : Person
     {
+        public static void Id(int num1)
+        {
+            
+        }
     }
 }

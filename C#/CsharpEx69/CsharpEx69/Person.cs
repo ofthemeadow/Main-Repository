@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SayNameEx119
+namespace CsharpEx69
 {
     public class Person
     {

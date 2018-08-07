@@ -11,7 +11,13 @@ namespace CsharpEx63
         static void Main(string[] args)
         {
             Console.WriteLine("Give me two numbers and I'll multiply them together.");
-            ClassMath.Mult(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
+            var input1 = Console.ReadLine();
+            var input2 = Console.ReadLine();
+            ClassMath.Mult(Convert.ToInt32(input1), Convert.ToInt32(input2), out int good);
+            Console.WriteLine("Second variable: " + input2);
+            Console.WriteLine(good);
+            Console.Read();
         }
     }
+
 }
