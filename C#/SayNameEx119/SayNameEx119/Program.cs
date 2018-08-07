@@ -10,7 +10,11 @@ namespace SayNameEx119
     {
         static void Main(string[] args)
         {
-
+            Employee fullname = new Employee();
+            fullname.FirstName = "Sample ";
+            fullname.LastName = "Student ";
+            fullname.SayName();
+            Console.Read();
         }
     }
 }

@@ -8,7 +8,7 @@ namespace SayNameEx119
 {
     public class Employee : Person
     {
-        public static void Id(int num1)
+        public void Id(int num1)
         {
             
         }
