@@ -11,10 +11,15 @@ namespace AbstractClasses122
         static void Main(string[] args)
         {
             Employee fullname = new Employee();
+            IQuittable justQuitIt = new Employee();
             fullname.firstName = "Sample ";
             fullname.lastName = "Student ";
             fullname.SayName();
-            Console.Read();
+            fullname.Quit();
+
+            Console.ReadLine();
+
+
         }
     }
 }
