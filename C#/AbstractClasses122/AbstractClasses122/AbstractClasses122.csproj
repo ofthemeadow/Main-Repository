@@ -44,8 +44,10 @@
   <ItemGroup>
     <Compile Include="Employee.cs" />
     <Compile Include="IQuittable.cs" />
+    <Compile Include="..\..\Overload128.cs">
+      <Link>Overload128.cs</Link>
+    </Compile>
     <Compile Include="Person.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
