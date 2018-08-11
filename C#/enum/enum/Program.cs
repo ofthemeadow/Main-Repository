@@ -9,7 +9,7 @@ namespace @enum
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             bool successFlag = false;
             while (successFlag == false)
             {
@@ -37,6 +37,7 @@ namespace @enum
             Friday,
             Saturday,
             Sunday
+            
         }
     }
 }

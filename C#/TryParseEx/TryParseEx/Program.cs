@@ -26,7 +26,7 @@ namespace TryParseEx
     }
     public class MaybeSo
     {
-        public static int Mult(int num1, int num2 = 0)
+        public static int Mult(int num1, int num2 = 2)
         {
             int results = (num1 * num1) + (num2 * num2);
             return results;
