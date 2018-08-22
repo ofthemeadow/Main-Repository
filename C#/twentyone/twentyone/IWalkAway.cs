@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CsharpEx69
+namespace twentyone
 {
-    class Program
+    interface IWalkAway
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void WalkAway(Player player);
     }
 }

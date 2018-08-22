@@ -8,9 +8,9 @@ namespace CsharpEx69
 {
     public class Employee
     {
-        public static void IdNumber(int num1)
+        public static void Id(int num1)
         {
-
+            Console.WriteLine();
         }
     }
 }
