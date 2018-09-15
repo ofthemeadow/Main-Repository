@@ -27,7 +27,10 @@ namespace CarInsurance.Controllers
                 foreach (var newInsuree in insurees)
                 {
                     var newIndex = new Insuree();
-                    newIndex.Id = newInsuree.FirstName.ToString()
+                    newIndex.Id = int.Parse(newInsuree.FirstName);
+                    newIndex.Id = int.Parse(newInsuree.LastName);
+                    newIndex.Id = int.Parse(newInsuree.EmailAddress);
+                    newIndex.Id = Convert.ToInt32(newInsuree.Quote);
                     viewedList.Add(newIndex);
                 }
 
