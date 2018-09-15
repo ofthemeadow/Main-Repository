@@ -13,10 +13,28 @@ namespace CarInsurance.Controllers
     public class AdminController : Controller
     {
         private InsuranceEntities db = new InsuranceEntities();
+        private object insuree;
 
         // GET: Admin
         public ActionResult Index()
         {
+            using (InsuranceEntities db = new InsuranceEntities())
+            {
+                var insurees = (from c in db.Insurees
+                               where c.Removed == null
+                               select c).ToList();
+                var viewedList = new List<Insuree>(); //the displayed information the user can see
+                foreach (var newInsuree in insurees)
+                {
+                    var newIndex = new Insuree();
+                    newIndex.Id = newInsuree.FirstName.ToString()
+                    viewedList.Add(newIndex);
+                }
+
+                return View(viewedList); //user can only see their input of fname, lname and email
+            }
+
+
             return View(db.Insurees.ToList());
         }
 
