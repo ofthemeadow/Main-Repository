@@ -7,7 +7,7 @@ using WizardUniversityForWizards.Models;
 
 namespace WizardUniversityForWizards.DAL
 {
-    public class SchoolInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<SchoolContext>
+    public class SchoolInitializer : System.Data.Entity. DropCreateDatabaseIfModelChanges<SchoolContext>
     {
         protected override void Seed(SchoolContext context)
         {
@@ -56,5 +56,4 @@ namespace WizardUniversityForWizards.DAL
             context.SaveChanges();
         }
     }
-}
 }
