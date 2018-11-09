@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OfTheMeadowWebsite", "OfTheMeadowWebsite\OfTheMeadowWebsite.vbproj", "{5FB6E919-7820-48ED-9E55-906D72A9EBBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FB6E919-7820-48ED-9E55-906D72A9EBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB6E919-7820-48ED-9E55-906D72A9EBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB6E919-7820-48ED-9E55-906D72A9EBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB6E919-7820-48ED-9E55-906D72A9EBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC110D18-C57D-4271-A4C0-2C5C8877B3F1}
+	EndGlobalSection
+EndGlobal
