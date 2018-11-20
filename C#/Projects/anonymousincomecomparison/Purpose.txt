@@ -1,0 +1,1 @@
+a basic console application compairing incomes

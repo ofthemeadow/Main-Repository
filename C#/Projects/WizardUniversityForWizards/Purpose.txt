@@ -1,0 +1,1 @@
+a basic webiste involving a database of students enrolling into the university of wizards.
