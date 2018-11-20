@@ -1,1 +1,1 @@
-a basic appication that asks a series of questions based on qualifications of obtaining a driver's license.
+a basic console appication that asks a series of questions based on qualifications of obtaining a driver's license.
