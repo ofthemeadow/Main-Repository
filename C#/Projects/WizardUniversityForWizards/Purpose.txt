@@ -1,1 +1,1 @@
-a basic webiste involving a database of students enrolling into the university of wizards.
+a basic webiste involving a database of students enrolling into the university of wizards. using the "code first" method of creating a database.
