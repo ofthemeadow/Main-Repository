@@ -1,21 +1,17 @@
 /*
-	1. PRIMARY STYLES
+	1. PRIMARY STYLES/TABS
 	2. HEADER
-	4. INTRO SECTION BACKGROUND WALL IMG
-	5. PORFOLIO SECTION
-	6. PROJECTS SECTION
-	7. ABOUT SECTION
-	8. EXPERIENCE SECTION
-	9. EDUCATION SECTION
-	10. COUNTER SECTION
-    11. BUTTON
-    12. FOOTER
+	3. PROJECTS SECTION
+	4. ABOUT SECTION
+	5. WORK EXPERIENCE SECTION
+	6. EDUCATION SECTION
+    7. FOOTER
 
 ====================================================
 
 
 /* ---------------------------------
-1. PRIMARY STYLES
+1. PRIMARY STYLES/TABS
 --------------------------------- */
 
 * {box-sizing: border-box}
