@@ -48,7 +48,7 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Home {background-color: #dee6f2;}
+#News {background-color: #dee6f2;}
+#Contact {background-color: #dee6f2;}
+#About {background-color: #dee6f2;}
