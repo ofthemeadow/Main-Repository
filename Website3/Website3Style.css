@@ -16,39 +16,76 @@
 
 * {box-sizing: border-box}
 
-/* Set height of body and the document to 100% */
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    color: black;
 }
 
-/* Style tab links */
 .tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
 }
 
 .tablink:hover {
-  background-color: #777;
+    background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
 }
 
-#Home {background-color: #dee6f2;}
-#News {background-color: #dee6f2;}
+#Projects {background-color: #dee6f2;}
+#AboutMe {background-color: #dee6f2;}
 #Contact {background-color: #dee6f2;}
 #About {background-color: #dee6f2;}
+
+/* ---------------------------------
+2. HEADER
+--------------------------------- */
+
+
+
+/* ---------------------------------
+3. PROJECTS SECTION
+--------------------------------- */
+
+
+
+/* ---------------------------------
+4. ABOUT ME
+--------------------------------- */
+
+
+
+/* ---------------------------------
+1. PRIMARY STYLES/TABS
+--------------------------------- */
+
+
+
+/* ---------------------------------
+1. PRIMARY STYLES/TABS
+--------------------------------- */
+
+
+
+/* ---------------------------------
+1. PRIMARY STYLES/TABS
+--------------------------------- */
+
+
+/* ---------------------------------
+1. PRIMARY STYLES/TABS
+--------------------------------- */
