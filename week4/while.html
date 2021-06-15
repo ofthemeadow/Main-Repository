@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Control Structures/While Statement</title>
+		<script>
+		function changeChooser() {
+			console.log("got change.");
+			var chooser = document.getElementById("animalChooser");
+			var options = chooser.options;
+			var counter = 0;
+			
+			while (counter < options.length) {
+				if (options[counter].selected) {
+					document.getElementById(options[counter].value).style.display = "";
+				} else {
+					document.getElementById(options[counter].value).style.display = "none";
+				}
+				counter++;
+			}
+			
+		}
+		</script>
+	</head>
+	<body onload="changeChooser ();">
+		<h1>The WHILE Statement</h1>
+		<select id="animalChooser" onchange="changeChooser();">
+			<option value="octoContent">Octopus</option>
+			<option value="chameleonContent">Chameleon</option>
+			<option value="hippoContent">Hippo</option>
+			<option value="hedgehogContent">Hedgehog</option>
+			<option value="giraffeContent">Giraffe</option>
+		</select>
+		<div id="octoContent">
+			<h2>Cute Octopus</h2>
+			<img src="images/octopus.jpg">
+		</div>
+		<div id="chameleonContent">
+			<h2>Cute Chameleon</h2>
+			<img src="images/chameleon.jpg">
+		</div>
+		<div id="hippoContent">
+			<h2>Cute Hippo</h2>
+			<img src="images/hippo.jpg">
+		</div>
+		<div id="hedgehogContent">
+			<h2>Cute Hedgehog</h2>
+			<img src="images/hedgehog.jpg">
+		</div>
+		<div id="giraffeContent">
+			<h2>Cute Giraffe</h2>
+			<img src="images/giraffe.jpg">
+		</div>
+	</body>
+</html>

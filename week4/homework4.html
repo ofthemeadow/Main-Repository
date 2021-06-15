@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			body {
+				text-align:center;
+			}
+		</style>
+		<title>Lab 3</title>
+		<script src="homework4.js"></script>
+	</head>
+	<body onload="changeChooser()">
+		<h1>Choose an animal</h1>
+		<select id="animalChooser" onchange="changeChooser()">
+			<option value="emptyContent">Animal</option>
+			<option value="monkeyContent">Monkey</option>
+			<option value="pandaContent">Panda</option>
+			<option value="squirrelContent">Squirrel</option>
+		</select>
+		<div id="emptyContent">
+		</div>
+		<div id="monkeyContent">
+			<h2>Martin the Monkey</h2>
+			<p>Does Martin want to eat a banana, bamboo or an acorn?</p>
+			<input id="monkeyInput" type="monkeyText">
+			<button onclick="monkeyFunction()">yum</button><br>
+			<p id="monkeyOpinion"></p>
+			<img src="images/monkey.jpg">
+		</div>
+		<div id="pandaContent">
+			<h2>Pinky the Panda</h2>
+			<p>Does Pinky want to eat a banana, bamboo or an acorn?</p>
+			<input id="pandaInput" type="pandaText">
+			<button onclick="pandaFunction()">yum</button><br>
+			<p id="pandaOpinion"></p>
+			<img src="images/panda.jpg">
+		</div>
+		<div id="squirrelContent">
+			<h2>Sylvia the Squirrel</h2>
+			<p>Does Sylvia want to eat a banana, bamboo or an acorn?</p>
+			<input id="squirrelInput" type="squirrelText">
+			<button onclick="squirrelFunction()">yum</button><br>
+			<p id="squirrelOpinion"></p>
+			<img src="images/squirrel.jpg">
+		</div>
+	</body>
+</html>
